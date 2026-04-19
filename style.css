@@ -105,16 +105,10 @@ a {
 }
 
 .nameplate-mark {
-    display: grid;
-    place-items: center;
+    display: block;
     width: 44px;
     height: 44px;
-    border: 2px solid var(--line);
-    border-radius: 14px;
-    background: var(--rust);
-    color: #fff8ee;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 0.95rem;
+    flex: 0 0 44px;
 }
 
 .nameplate-text {
